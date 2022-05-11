@@ -1,5 +1,13 @@
-body {
-  box-sizing: border-box;
-  background-color: red;
-  color: #ff0000;
+* {
+    box-sizing: border-box;
+}
+
+.col {
+  width: 50%;
+  float: left;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
