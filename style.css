@@ -2,6 +2,30 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: 'Roboto';
+  src: url(https://fonts.google.com/specimen/Roboto);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(https://fonts.google.com/specimen/Roboto);
+  font-weight: 600;
+}
+
+body {
+  font-family: Roboto;
+}
+
+.smallText {
+  font-size: 1em;
+}
+
+.bigText {
+  font-size: 1.25em;
+}
+
 .col {
   box-sizing: border-box;
   width: 50%;
