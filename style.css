@@ -25,6 +25,10 @@ body {
   height: 100vh;
 }
 
+input {
+  text-align: center;
+}
+
 .hr_text {
   max-width: 50%;
   line-height: 1em;
@@ -40,6 +44,6 @@ body {
     content: attr(data-content);
     position: relative;
     display: inline-block;
-    
+
   }
 }
