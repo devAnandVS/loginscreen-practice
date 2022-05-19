@@ -27,19 +27,10 @@ body {
 }
 
 .hr_text {
+  text-align: center;
+  position: fixed;
   max-width: 50%;
   line-height: 1em;
-  position: relative;
   color: black;
   opacity: 0.5;
-  ::before {
-    content: '';
-    position: absolute;
-  }
-  ::after {
-    content: attr(data-content);
-    position: relative;
-    display: inline-block;
-
-  }
 }
