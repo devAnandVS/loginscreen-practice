@@ -29,18 +29,31 @@ body {
 }
 
 .hr_text {
-  text-align: center;
-  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40%;
+  color: #C4C4C4;
+  opacity: 40%;
 }
 
 .logo {
   max-width: 5%;
 }
 
-.socialLogo {
-  max-width: 15%;
-}
-
 button, .loginForm {
   border-radius: 5px;
+}
+
+.socialLogin {
+  margin: 0 auto;
+  width: 40%;
+}
+
+.socialButton {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.socialLogo {
+  max-width: 10%;
 }
