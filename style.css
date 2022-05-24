@@ -8,10 +8,12 @@ body {
 
 .smallText {
   font-size: 1em;
+  font-weight: 400;
 }
 
 .bigText {
   font-size: 1.25em;
+  font-weight: 600;
 }
 
 .col {
@@ -28,9 +30,17 @@ body {
 
 .hr_text {
   text-align: center;
-  position: fixed;
   max-width: 50%;
-  line-height: 1em;
-  color: black;
-  opacity: 0.5;
+}
+
+.logo {
+  max-width: 5%;
+}
+
+.socialLogo {
+  max-width: 15%;
+}
+
+button, .loginForm {
+  border-radius: 5px;
 }
